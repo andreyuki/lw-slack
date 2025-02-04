@@ -2,7 +2,9 @@
   background-color: white;
   flex-grow: 1;
   padding: 16px;
+  display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .chat-header {
@@ -19,4 +21,13 @@
 .chat-header i {
   margin-right: 6px;
   font-size: 20px;
+}
+
+.chat-conversation {
+  flex-grow: 1;
+  padding: 16px 0;
+  overflow: auto; /* Use auto instead of scroll to prevent unnecessary scrollbars */
+  min-height: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }

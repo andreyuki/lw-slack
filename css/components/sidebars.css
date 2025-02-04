@@ -3,6 +3,8 @@
   background-color: #261C25;
   padding: 16px;
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 .organisation {

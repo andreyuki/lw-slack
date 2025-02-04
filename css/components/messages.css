@@ -1,0 +1,26 @@
+.message {
+  display: flex;
+  align-items: start;
+}
+
+.message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.message .message-content {
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.message .message-content p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.message .message-content p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
