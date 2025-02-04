@@ -1,0 +1,22 @@
+.chat-container {
+  background-color: white;
+  flex-grow: 1;
+  padding: 16px;
+  flex-direction: column;
+}
+
+.chat-header {
+  color:#212529;
+  width: 100%;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.chat-header h1 {
+  font-size: 24px;
+}
+
+.chat-header i {
+  margin-right: 6px;
+  font-size: 20px;
+}

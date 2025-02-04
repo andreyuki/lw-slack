@@ -1,0 +1,45 @@
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user > span {
+  opacity: 0.5;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel.active span{
+  opacity: 1;
+}
+
+.channel span {
+  opacity: 0.5;
+}
+
+.channel i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.online-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1FE5BD;
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+.offline-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  margin-top: 2px;
+  margin-right: 8px;
+}
